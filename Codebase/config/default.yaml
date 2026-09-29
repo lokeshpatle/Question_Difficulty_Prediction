@@ -1,0 +1,61 @@
+corpus:
+  min_records: 10000
+  path: data/raw/questions.jsonl
+  provenance_path: null
+ingest:
+  max_reject_ratio: 0.02
+validation:
+  min_class_count: 30
+dedup:
+  near_threshold: 0.85
+  minhash_permutations: 128
+  lsh_bands: 32
+split:
+  ratios: [0.70, 0.15, 0.15]
+  max_ratio_deviation: 0.02
+  small_dataset_threshold: 5000
+preprocess:
+  max_chars: 20000
+  sentence_abbreviations: ["e.g.", "i.e.", "mr.", "mrs.", "ms.", "dr.", "prof.", "sr.", "jr.", "vs.", "etc.", "fig.", "eq.", "no.", "approx.", "inc.", "dept."]
+features:
+  use_lexical: true
+  use_readability: true
+  use_syntax: true
+  use_task: true
+  use_mcq: true
+  use_tfidf: true
+  use_semantic_scalar: true
+  use_programming: true
+  use_semantic_embedding: true
+  rare_word_df_threshold: 5
+  tfidf_high_percentile: 90
+  max_sentences_for_f29: 40
+  recursion_weight: 2
+  indent_width: 4
+  clause_heads: [ROOT, ccomp, xcomp, advcl, relcl, acl, csubj, csubjpass]
+semantic:
+  encoder: sentence-transformers/all-MiniLM-L6-v2
+  encoder_revision: configured
+  pca_components: 48
+  min_explained_variance: 0.60
+selection:
+  correlation_threshold: 0.90
+training:
+  classifier: xgboost
+  calibrate: false
+  hyperparameter_search: true
+  ablation_hyperparameters: fixed_selected_main
+interpret:
+  shap_sample_size: 2000
+seed:
+  split: 42
+  minhash: 42
+  pca: 42
+  model: 42
+  cv: 42
+  permutation_importance: 42
+  shap_sample: 42
+runtime:
+  dependency_profile: P0
+  spacy_n_process: 1
+  embedding_batch_size: 64

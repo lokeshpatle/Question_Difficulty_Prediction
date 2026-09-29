@@ -1,0 +1,22 @@
+weights:
+  array: 1
+  string: 1
+  sorting: 2
+  hash map: 2
+  hashmap: 2
+  stack: 2
+  queue: 2
+  binary search: 3
+  tree: 3
+  heap: 3
+  recursion: 3
+  graph: 4
+  bfs: 4
+  dfs: 4
+  dynamic programming: 4
+  topological sort: 4
+  max-flow: 5
+  suffix automaton: 5
+  segment tree: 5
+  fft: 5
+  np-hard: 5

@@ -1,0 +1,15 @@
+patterns:
+  - '^\s*def\s+'
+  - '^\s*class\s+'
+  - '^\s*function\s+'
+  - '^\s*public\s+static\b'
+  - '^\s*#include\b'
+  - '^\s*import\s+'
+  - '\bfor\s*\('
+  - '\bwhile\s*\('
+  - '\bif\s*\('
+  - '=>'
+  - ';\s*$'
+  - '\{[^{}]*\}'
+branch_keywords: [if, else if, elif, for, while, case, catch, '&&', '||', '?']
+loop_keywords: [for, while, foreach]

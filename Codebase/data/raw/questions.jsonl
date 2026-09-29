@@ -1,0 +1,5 @@
+{"question":"What is 2 + 2?","label":"Easy","question_id":"Q001"}
+{"question":"Define a binary search tree.","label":"Easy","question_id":"Q002"}
+{"question":"Explain why binary search requires sorted input.","label":"Moderate","question_id":"Q003"}
+{"question":"Compare BFS and DFS for graph traversal.","label":"Moderate","question_id":"Q004"}
+{"question":"Design an algorithm to find the shortest path in a weighted graph under constraints.","label":"Hard","question_id":"Q005"}

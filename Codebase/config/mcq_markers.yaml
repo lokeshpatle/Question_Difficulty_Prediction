@@ -1,0 +1,9 @@
+markers:
+  - '^\s*\([A-Da-d]\)\s+'
+  - '^\s*[A-Da-d][.)]\s+'
+  - '^\s*[1-9][0-9]*[.)]\s+'
+  - '^\s*(?:Option\s+)[A-Da-d](?:[.)]?)\s+'
+  - '^\s*\[[A-Da-d]\]\s+'
+  - '^\s*(?:Option\s+)?[A-Da-d]:\s+'
+min_options: 2
+max_options: 12
