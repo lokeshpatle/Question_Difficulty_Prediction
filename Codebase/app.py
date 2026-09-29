@@ -187,10 +187,10 @@ if model_loaded:
                 result = predictor.predict_record(record)
                 
                 # Determine colors based on prediction
-                diff = result["prediction"]
+                diff = result["predicted_label"]
                 if diff == "Easy":
                     color = "#00CC96"
-                elif diff == "Medium":
+                elif diff == "Moderate":
                     color = "#FFA15A"
                 else:
                     color = "#EF553B"
@@ -220,7 +220,7 @@ if model_loaded:
                         color="Difficulty",
                         color_discrete_map={
                             "Easy": "#00CC96",
-                            "Medium": "#FFA15A",
+                            "Moderate": "#FFA15A",
                             "Hard": "#EF553B"
                         },
                         range_x=[0, 1]
