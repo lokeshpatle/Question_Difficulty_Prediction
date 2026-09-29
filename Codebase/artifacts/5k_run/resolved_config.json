@@ -1,0 +1,107 @@
+{
+  "corpus": {
+    "min_records": 5000,
+    "path": "../data/questions_5000.jsonl",
+    "provenance_path": null
+  },
+  "dedup": {
+    "lsh_bands": 32,
+    "minhash_permutations": 128,
+    "near_threshold": 0.85
+  },
+  "features": {
+    "clause_heads": [
+      "ROOT",
+      "ccomp",
+      "xcomp",
+      "advcl",
+      "relcl",
+      "acl",
+      "csubj",
+      "csubjpass"
+    ],
+    "indent_width": 4,
+    "max_sentences_for_f29": 40,
+    "rare_word_df_threshold": 5,
+    "recursion_weight": 2,
+    "tfidf_high_percentile": 90,
+    "use_lexical": true,
+    "use_mcq": true,
+    "use_programming": true,
+    "use_readability": true,
+    "use_semantic_embedding": true,
+    "use_semantic_scalar": true,
+    "use_syntax": true,
+    "use_task": true,
+    "use_tfidf": true
+  },
+  "ingest": {
+    "max_reject_ratio": 0.02
+  },
+  "interpret": {
+    "shap_sample_size": 2000
+  },
+  "preprocess": {
+    "max_chars": 20000,
+    "sentence_abbreviations": [
+      "e.g.",
+      "i.e.",
+      "mr.",
+      "mrs.",
+      "ms.",
+      "dr.",
+      "prof.",
+      "sr.",
+      "jr.",
+      "vs.",
+      "etc.",
+      "fig.",
+      "eq.",
+      "no.",
+      "approx.",
+      "inc.",
+      "dept."
+    ]
+  },
+  "runtime": {
+    "dependency_profile": "P0",
+    "embedding_batch_size": 64,
+    "spacy_n_process": 1
+  },
+  "seed": {
+    "cv": 42,
+    "minhash": 42,
+    "model": 42,
+    "pca": 42,
+    "permutation_importance": 42,
+    "shap_sample": 42,
+    "split": 42
+  },
+  "selection": {
+    "correlation_threshold": 0.9
+  },
+  "semantic": {
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2",
+    "encoder_revision": "configured",
+    "min_explained_variance": 0.6,
+    "pca_components": 48
+  },
+  "split": {
+    "max_ratio_deviation": 0.02,
+    "ratios": [
+      0.7,
+      0.15,
+      0.15
+    ],
+    "small_dataset_threshold": 5000
+  },
+  "training": {
+    "ablation_hyperparameters": "fixed_selected_main",
+    "calibrate": false,
+    "classifier": "xgboost",
+    "hyperparameter_search": true
+  },
+  "validation": {
+    "min_class_count": 30
+  }
+}

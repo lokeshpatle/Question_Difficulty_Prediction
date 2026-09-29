@@ -1,0 +1,1429 @@
+[
+  {
+    "run_id": "A0",
+    "validation": {
+      "macro_f1": 0.1665001665001665,
+      "ordinal_mae": 0.6671105193075899,
+      "balanced_accuracy": 0.3333333333333333,
+      "accuracy": 0.33288948069241014,
+      "per_class": {
+        "Easy": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "Moderate": {
+          "precision": 0.33288948069241014,
+          "recall": 1.0,
+          "f1": 0.4995004995004995
+        },
+        "Hard": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          0,
+          251,
+          0
+        ],
+        [
+          0,
+          250,
+          0
+        ],
+        [
+          0,
+          250,
+          0
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ]
+      ],
+      "quadratic_kappa": 0.0,
+      "calibrated": false
+    },
+    "families": [],
+    "macro_f1_delta_vs_A0": 0.0
+  },
+  {
+    "run_id": "A1",
+    "validation": {
+      "macro_f1": 0.4102856674073783,
+      "ordinal_mae": 0.7536617842876165,
+      "balanced_accuracy": 0.4179282868525896,
+      "accuracy": 0.4181091877496671,
+      "per_class": {
+        "Easy": {
+          "precision": 0.434375,
+          "recall": 0.5537848605577689,
+          "f1": 0.4868651488616462
+        },
+        "Moderate": {
+          "precision": 0.3473684210526316,
+          "recall": 0.264,
+          "f1": 0.3
+        },
+        "Hard": {
+          "precision": 0.45228215767634855,
+          "recall": 0.436,
+          "f1": 0.4439918533604888
+        }
+      },
+      "confusion_matrix": [
+        [
+          139,
+          64,
+          48
+        ],
+        [
+          100,
+          66,
+          84
+        ],
+        [
+          81,
+          60,
+          109
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5537848605577689,
+          0.2549800796812749,
+          0.19123505976095617
+        ],
+        [
+          0.4,
+          0.264,
+          0.336
+        ],
+        [
+          0.324,
+          0.24,
+          0.436
+        ]
+      ],
+      "quadratic_kappa": 0.22395172334224556,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08"
+    ],
+    "macro_f1_delta_vs_A0": 0.24378550090721182,
+    "macro_f1_delta_vs_previous_cumulative": null
+  },
+  {
+    "run_id": "A2",
+    "validation": {
+      "macro_f1": 0.4256619524671339,
+      "ordinal_mae": 0.7403462050599201,
+      "balanced_accuracy": 0.43125099601593625,
+      "accuracy": 0.43142476697736354,
+      "per_class": {
+        "Easy": {
+          "precision": 0.4462025316455696,
+          "recall": 0.5617529880478087,
+          "f1": 0.4973544973544973
+        },
+        "Moderate": {
+          "precision": 0.3811881188118812,
+          "recall": 0.308,
+          "f1": 0.3407079646017699
+        },
+        "Hard": {
+          "precision": 0.45493562231759654,
+          "recall": 0.424,
+          "f1": 0.4389233954451346
+        }
+      },
+      "confusion_matrix": [
+        [
+          141,
+          65,
+          45
+        ],
+        [
+          91,
+          77,
+          82
+        ],
+        [
+          84,
+          60,
+          106
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5617529880478087,
+          0.2589641434262948,
+          0.17928286852589642
+        ],
+        [
+          0.364,
+          0.308,
+          0.328
+        ],
+        [
+          0.336,
+          0.24,
+          0.424
+        ]
+      ],
+      "quadratic_kappa": 0.2245986727280106,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "parse_ok"
+    ],
+    "macro_f1_delta_vs_A0": 0.2591617859669674,
+    "macro_f1_delta_vs_previous_cumulative": 0.015376285059755579
+  },
+  {
+    "run_id": "A3",
+    "validation": {
+      "macro_f1": 0.43212749544109536,
+      "ordinal_mae": 0.7376830892143809,
+      "balanced_accuracy": 0.4379070385126162,
+      "accuracy": 0.4380825565912117,
+      "per_class": {
+        "Easy": {
+          "precision": 0.4386503067484663,
+          "recall": 0.5697211155378487,
+          "f1": 0.49566724436741766
+        },
+        "Moderate": {
+          "precision": 0.3979591836734694,
+          "recall": 0.312,
+          "f1": 0.34977578475336324
+        },
+        "Hard": {
+          "precision": 0.47161572052401746,
+          "recall": 0.432,
+          "f1": 0.4509394572025052
+        }
+      },
+      "confusion_matrix": [
+        [
+          143,
+          68,
+          40
+        ],
+        [
+          91,
+          78,
+          81
+        ],
+        [
+          92,
+          50,
+          108
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5697211155378487,
+          0.27091633466135456,
+          0.1593625498007968
+        ],
+        [
+          0.364,
+          0.312,
+          0.324
+        ],
+        [
+          0.368,
+          0.2,
+          0.432
+        ]
+      ],
+      "quadratic_kappa": 0.22518925109287624,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax",
+      "task"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "parse_ok",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.2656273289409289,
+    "macro_f1_delta_vs_previous_cumulative": 0.006465542973961458
+  },
+  {
+    "run_id": "A4",
+    "validation": {
+      "macro_f1": 0.4198493975115565,
+      "ordinal_mae": 0.7443408788282291,
+      "balanced_accuracy": 0.4272403718459496,
+      "accuracy": 0.4274300932090546,
+      "per_class": {
+        "Easy": {
+          "precision": 0.43597560975609756,
+          "recall": 0.5697211155378487,
+          "f1": 0.4939550949913644
+        },
+        "Moderate": {
+          "precision": 0.36649214659685864,
+          "recall": 0.28,
+          "f1": 0.31746031746031744
+        },
+        "Hard": {
+          "precision": 0.46551724137931033,
+          "recall": 0.432,
+          "f1": 0.44813278008298757
+        }
+      },
+      "confusion_matrix": [
+        [
+          143,
+          64,
+          44
+        ],
+        [
+          100,
+          70,
+          80
+        ],
+        [
+          85,
+          57,
+          108
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5697211155378487,
+          0.2549800796812749,
+          0.1752988047808765
+        ],
+        [
+          0.4,
+          0.28,
+          0.32
+        ],
+        [
+          0.34,
+          0.228,
+          0.432
+        ]
+      ],
+      "quadratic_kappa": 0.22978613364732714,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax",
+      "task",
+      "mcq"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "mcq_detected",
+      "parse_ok",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.25334923101138995,
+    "macro_f1_delta_vs_previous_cumulative": -0.012278097929538878
+  },
+  {
+    "run_id": "A5",
+    "validation": {
+      "macro_f1": 0.4132402665933285,
+      "ordinal_mae": 0.7563249001331558,
+      "balanced_accuracy": 0.4205949535192563,
+      "accuracy": 0.4207723035952064,
+      "per_class": {
+        "Easy": {
+          "precision": 0.43034055727554177,
+          "recall": 0.5537848605577689,
+          "f1": 0.4843205574912892
+        },
+        "Moderate": {
+          "precision": 0.3617021276595745,
+          "recall": 0.272,
+          "f1": 0.3105022831050228
+        },
+        "Hard": {
+          "precision": 0.45416666666666666,
+          "recall": 0.436,
+          "f1": 0.4448979591836735
+        }
+      },
+      "confusion_matrix": [
+        [
+          139,
+          64,
+          48
+        ],
+        [
+          99,
+          68,
+          83
+        ],
+        [
+          85,
+          56,
+          109
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5537848605577689,
+          0.2549800796812749,
+          0.19123505976095617
+        ],
+        [
+          0.396,
+          0.272,
+          0.332
+        ],
+        [
+          0.34,
+          0.224,
+          0.436
+        ]
+      ],
+      "quadratic_kappa": 0.21600254350367643,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax",
+      "task",
+      "mcq",
+      "tfidf"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "F25",
+      "mcq_detected",
+      "parse_ok",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.24674010009316202,
+    "macro_f1_delta_vs_previous_cumulative": -0.006609130918227957
+  },
+  {
+    "run_id": "A6",
+    "validation": {
+      "macro_f1": 0.4620911696921171,
+      "ordinal_mae": 0.6830892143808256,
+      "balanced_accuracy": 0.4698273572377158,
+      "accuracy": 0.47003994673768307,
+      "per_class": {
+        "Easy": {
+          "precision": 0.4606413994169096,
+          "recall": 0.6294820717131474,
+          "f1": 0.531986531986532
+        },
+        "Moderate": {
+          "precision": 0.4126984126984127,
+          "recall": 0.312,
+          "f1": 0.3553530751708428
+        },
+        "Hard": {
+          "precision": 0.5342465753424658,
+          "recall": 0.468,
+          "f1": 0.4989339019189765
+        }
+      },
+      "confusion_matrix": [
+        [
+          158,
+          58,
+          35
+        ],
+        [
+          105,
+          78,
+          67
+        ],
+        [
+          80,
+          53,
+          117
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.6294820717131474,
+          0.23107569721115537,
+          0.1394422310756972
+        ],
+        [
+          0.42,
+          0.312,
+          0.268
+        ],
+        [
+          0.32,
+          0.212,
+          0.468
+        ]
+      ],
+      "quadratic_kappa": 0.30081760257623114,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax",
+      "task",
+      "mcq",
+      "tfidf",
+      "semantic_scalar"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "mcq_detected",
+      "parse_ok",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.29559100319195064,
+    "macro_f1_delta_vs_previous_cumulative": 0.04885090309878859
+  },
+  {
+    "run_id": "A7",
+    "validation": {
+      "macro_f1": 0.4856395138101674,
+      "ordinal_mae": 0.62982689747004,
+      "balanced_accuracy": 0.4951341301460823,
+      "accuracy": 0.49533954727030627,
+      "per_class": {
+        "Easy": {
+          "precision": 0.5158227848101266,
+          "recall": 0.649402390438247,
+          "f1": 0.5749559082892416
+        },
+        "Moderate": {
+          "precision": 0.40641711229946526,
+          "recall": 0.304,
+          "f1": 0.34782608695652173
+        },
+        "Hard": {
+          "precision": 0.5362903225806451,
+          "recall": 0.532,
+          "f1": 0.5341365461847389
+        }
+      },
+      "confusion_matrix": [
+        [
+          163,
+          57,
+          31
+        ],
+        [
+          90,
+          76,
+          84
+        ],
+        [
+          63,
+          54,
+          133
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.649402390438247,
+          0.22709163346613545,
+          0.12350597609561753
+        ],
+        [
+          0.36,
+          0.304,
+          0.336
+        ],
+        [
+          0.252,
+          0.216,
+          0.532
+        ]
+      ],
+      "quadratic_kappa": 0.3792371689140268,
+      "calibrated": false
+    },
+    "families": [
+      "lexical",
+      "readability",
+      "syntax",
+      "task",
+      "mcq",
+      "tfidf",
+      "semantic_scalar",
+      "programming"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "F16",
+      "F17",
+      "F18",
+      "F19",
+      "F20",
+      "F23",
+      "F24",
+      "F25",
+      "F26",
+      "F27",
+      "F28",
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "mcq_detected",
+      "code_detected",
+      "input_size_detected",
+      "parse_ok",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.31913934731000093,
+    "macro_f1_delta_vs_previous_cumulative": 0.02354834411805029
+  },
+  {
+    "run_id": "A8",
+    "status": "unavailable",
+    "reason": "semantic_embedding_not_available"
+  },
+  {
+    "run_id": "A8b-32",
+    "status": "unavailable",
+    "reason": "semantic_embedding_not_available"
+  },
+  {
+    "run_id": "A8b-48",
+    "status": "unavailable",
+    "reason": "semantic_embedding_not_available"
+  },
+  {
+    "run_id": "A8b-64",
+    "status": "unavailable",
+    "reason": "semantic_embedding_not_available"
+  },
+  {
+    "run_id": "S_lexical",
+    "validation": {
+      "macro_f1": 0.4187935486430903,
+      "ordinal_mae": 0.7443408788282291,
+      "balanced_accuracy": 0.42852589641434263,
+      "accuracy": 0.42876165113182424,
+      "per_class": {
+        "Easy": {
+          "precision": 0.46060606060606063,
+          "recall": 0.6055776892430279,
+          "f1": 0.5232358003442341
+        },
+        "Moderate": {
+          "precision": 0.3689839572192513,
+          "recall": 0.276,
+          "f1": 0.3157894736842105
+        },
+        "Hard": {
+          "precision": 0.43162393162393164,
+          "recall": 0.404,
+          "f1": 0.41735537190082644
+        }
+      },
+      "confusion_matrix": [
+        [
+          152,
+          54,
+          45
+        ],
+        [
+          93,
+          69,
+          88
+        ],
+        [
+          85,
+          64,
+          101
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.6055776892430279,
+          0.2151394422310757,
+          0.17928286852589642
+        ],
+        [
+          0.372,
+          0.276,
+          0.352
+        ],
+        [
+          0.34,
+          0.256,
+          0.404
+        ]
+      ],
+      "quadratic_kappa": 0.2308012650961766,
+      "calibrated": false
+    },
+    "families": [
+      "lexical"
+    ],
+    "features": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05"
+    ],
+    "macro_f1_delta_vs_A0": 0.25229338214292385
+  },
+  {
+    "run_id": "S_readability",
+    "validation": {
+      "macro_f1": 0.3425546582574655,
+      "ordinal_mae": 0.848202396804261,
+      "balanced_accuracy": 0.34219920318725094,
+      "accuracy": 0.3422103861517976,
+      "per_class": {
+        "Easy": {
+          "precision": 0.36213991769547327,
+          "recall": 0.350597609561753,
+          "f1": 0.3562753036437247
+        },
+        "Moderate": {
+          "precision": 0.31086142322097376,
+          "recall": 0.332,
+          "f1": 0.32108317214700194
+        },
+        "Hard": {
+          "precision": 0.35684647302904565,
+          "recall": 0.344,
+          "f1": 0.35030549898167007
+        }
+      },
+      "confusion_matrix": [
+        [
+          88,
+          93,
+          70
+        ],
+        [
+          82,
+          83,
+          85
+        ],
+        [
+          73,
+          91,
+          86
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.350597609561753,
+          0.3705179282868526,
+          0.2788844621513944
+        ],
+        [
+          0.328,
+          0.332,
+          0.34
+        ],
+        [
+          0.292,
+          0.364,
+          0.344
+        ]
+      ],
+      "quadratic_kappa": 0.06293909542793263,
+      "calibrated": false
+    },
+    "families": [
+      "readability"
+    ],
+    "features": [
+      "F06",
+      "F07",
+      "F08"
+    ],
+    "macro_f1_delta_vs_A0": 0.176054491757299
+  },
+  {
+    "run_id": "S_syntax",
+    "validation": {
+      "macro_f1": 0.3847164137925312,
+      "ordinal_mae": 0.8122503328894807,
+      "balanced_accuracy": 0.3860398406374503,
+      "accuracy": 0.38615179760319573,
+      "per_class": {
+        "Easy": {
+          "precision": 0.3630769230769231,
+          "recall": 0.4701195219123506,
+          "f1": 0.4097222222222222
+        },
+        "Moderate": {
+          "precision": 0.36160714285714285,
+          "recall": 0.324,
+          "f1": 0.34177215189873417
+        },
+        "Hard": {
+          "precision": 0.4504950495049505,
+          "recall": 0.364,
+          "f1": 0.4026548672566372
+        }
+      },
+      "confusion_matrix": [
+        [
+          118,
+          80,
+          53
+        ],
+        [
+          111,
+          81,
+          58
+        ],
+        [
+          96,
+          63,
+          91
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.4701195219123506,
+          0.3187250996015936,
+          0.21115537848605578
+        ],
+        [
+          0.444,
+          0.324,
+          0.232
+        ],
+        [
+          0.384,
+          0.252,
+          0.364
+        ]
+      ],
+      "quadratic_kappa": 0.11644998198973289,
+      "calibrated": false
+    },
+    "families": [
+      "syntax"
+    ],
+    "features": [
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "parse_ok"
+    ],
+    "macro_f1_delta_vs_A0": 0.2182162472923647
+  },
+  {
+    "run_id": "S_task",
+    "validation": {
+      "macro_f1": 0.3316549542370016,
+      "ordinal_mae": 0.9081225033288948,
+      "balanced_accuracy": 0.3566215139442231,
+      "accuracy": 0.35685752330226367,
+      "per_class": {
+        "Easy": {
+          "precision": 0.34271099744245526,
+          "recall": 0.5338645418326693,
+          "f1": 0.4174454828660436
+        },
+        "Moderate": {
+          "precision": 0.3191489361702128,
+          "recall": 0.12,
+          "f1": 0.1744186046511628
+        },
+        "Hard": {
+          "precision": 0.39097744360902253,
+          "recall": 0.416,
+          "f1": 0.40310077519379844
+        }
+      },
+      "confusion_matrix": [
+        [
+          134,
+          39,
+          78
+        ],
+        [
+          136,
+          30,
+          84
+        ],
+        [
+          121,
+          25,
+          104
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.5338645418326693,
+          0.1553784860557769,
+          0.3107569721115538
+        ],
+        [
+          0.544,
+          0.12,
+          0.336
+        ],
+        [
+          0.484,
+          0.1,
+          0.416
+        ]
+      ],
+      "quadratic_kappa": 0.06708932975081905,
+      "calibrated": false
+    },
+    "families": [
+      "task"
+    ],
+    "features": [
+      "F16",
+      "F17",
+      "question_type=What",
+      "question_type=Why",
+      "question_type=How",
+      "question_type=Which",
+      "question_type=When",
+      "question_type=Where",
+      "question_type=YesNo",
+      "question_type=Other",
+      "instruction_type=Define",
+      "instruction_type=Explain",
+      "instruction_type=Calculate",
+      "instruction_type=Compare",
+      "instruction_type=Analyze",
+      "instruction_type=Design",
+      "instruction_type=Prove",
+      "instruction_type=Describe",
+      "instruction_type=Identify",
+      "instruction_type=Other"
+    ],
+    "macro_f1_delta_vs_A0": 0.1651547877368351
+  },
+  {
+    "run_id": "S_mcq",
+    "validation": {
+      "macro_f1": 0.20940008590519935,
+      "ordinal_mae": 0.9786950732356857,
+      "balanced_accuracy": 0.3360903054448871,
+      "accuracy": 0.33688415446071907,
+      "per_class": {
+        "Easy": {
+          "precision": 0.33766233766233766,
+          "recall": 0.9322709163346613,
+          "f1": 0.4957627118644068
+        },
+        "Moderate": {
+          "precision": 0.17647058823529413,
+          "recall": 0.012,
+          "f1": 0.02247191011235955
+        },
+        "Hard": {
+          "precision": 0.3902439024390244,
+          "recall": 0.064,
+          "f1": 0.10996563573883161
+        }
+      },
+      "confusion_matrix": [
+        [
+          234,
+          7,
+          10
+        ],
+        [
+          232,
+          3,
+          15
+        ],
+        [
+          227,
+          7,
+          16
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.9322709163346613,
+          0.027888446215139442,
+          0.0398406374501992
+        ],
+        [
+          0.928,
+          0.012,
+          0.06
+        ],
+        [
+          0.908,
+          0.028,
+          0.064
+        ]
+      ],
+      "quadratic_kappa": 0.019674340112785793,
+      "calibrated": false
+    },
+    "families": [
+      "mcq"
+    ],
+    "features": [
+      "F18",
+      "F19",
+      "F20",
+      "mcq_detected"
+    ],
+    "macro_f1_delta_vs_A0": 0.04289991940503285
+  },
+  {
+    "run_id": "S_tfidf",
+    "validation": {
+      "macro_f1": 0.3867959210507308,
+      "ordinal_mae": 0.8322237017310253,
+      "balanced_accuracy": 0.4005258964143426,
+      "accuracy": 0.4007989347536618,
+      "per_class": {
+        "Easy": {
+          "precision": 0.4,
+          "recall": 0.6055776892430279,
+          "f1": 0.48177496038034867
+        },
+        "Moderate": {
+          "precision": 0.41496598639455784,
+          "recall": 0.244,
+          "f1": 0.30730478589420657
+        },
+        "Hard": {
+          "precision": 0.39285714285714285,
+          "recall": 0.352,
+          "f1": 0.37130801687763715
+        }
+      },
+      "confusion_matrix": [
+        [
+          152,
+          40,
+          59
+        ],
+        [
+          112,
+          61,
+          77
+        ],
+        [
+          116,
+          46,
+          88
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.6055776892430279,
+          0.1593625498007968,
+          0.2350597609561753
+        ],
+        [
+          0.448,
+          0.244,
+          0.308
+        ],
+        [
+          0.464,
+          0.184,
+          0.352
+        ]
+      ],
+      "quadratic_kappa": 0.11731519643948529,
+      "calibrated": false
+    },
+    "families": [
+      "tfidf"
+    ],
+    "features": [
+      "F23",
+      "F24",
+      "F25"
+    ],
+    "macro_f1_delta_vs_A0": 0.2202957545505643
+  },
+  {
+    "run_id": "S_semantic_scalar",
+    "validation": {
+      "macro_f1": 0.38302648564902136,
+      "ordinal_mae": 0.7829560585885486,
+      "balanced_accuracy": 0.4030969455511288,
+      "accuracy": 0.40346205059920104,
+      "per_class": {
+        "Easy": {
+          "precision": 0.397196261682243,
+          "recall": 0.6772908366533864,
+          "f1": 0.5007363770250368
+        },
+        "Moderate": {
+          "precision": 0.3273809523809524,
+          "recall": 0.22,
+          "f1": 0.2631578947368421
+        },
+        "Hard": {
+          "precision": 0.5032258064516129,
+          "recall": 0.312,
+          "f1": 0.3851851851851852
+        }
+      },
+      "confusion_matrix": [
+        [
+          170,
+          56,
+          25
+        ],
+        [
+          143,
+          55,
+          52
+        ],
+        [
+          115,
+          57,
+          78
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.6772908366533864,
+          0.22310756972111553,
+          0.099601593625498
+        ],
+        [
+          0.572,
+          0.22,
+          0.208
+        ],
+        [
+          0.46,
+          0.228,
+          0.312
+        ]
+      ],
+      "quadratic_kappa": 0.1987245832401191,
+      "calibrated": false
+    },
+    "families": [
+      "semantic_scalar"
+    ],
+    "features": [
+      "F26",
+      "F27",
+      "F28"
+    ],
+    "macro_f1_delta_vs_A0": 0.21652631914885487
+  },
+  {
+    "run_id": "S_programming",
+    "validation": {
+      "macro_f1": 0.4407591784429878,
+      "ordinal_mae": 0.6964047936085219,
+      "balanced_accuracy": 0.4644355909694555,
+      "accuracy": 0.4647137150466045,
+      "per_class": {
+        "Easy": {
+          "precision": 0.4604904632152589,
+          "recall": 0.6733067729083665,
+          "f1": 0.5469255663430421
+        },
+        "Moderate": {
+          "precision": 0.3779527559055118,
+          "recall": 0.192,
+          "f1": 0.2546419098143236
+        },
+        "Hard": {
+          "precision": 0.5136186770428015,
+          "recall": 0.528,
+          "f1": 0.5207100591715976
+        }
+      },
+      "confusion_matrix": [
+        [
+          169,
+          39,
+          43
+        ],
+        [
+          120,
+          48,
+          82
+        ],
+        [
+          78,
+          40,
+          132
+        ]
+      ],
+      "confusion_matrix_row_normalized": [
+        [
+          0.6733067729083665,
+          0.1553784860557769,
+          0.17131474103585656
+        ],
+        [
+          0.48,
+          0.192,
+          0.328
+        ],
+        [
+          0.312,
+          0.16,
+          0.528
+        ]
+      ],
+      "quadratic_kappa": 0.31982288626717403,
+      "calibrated": false
+    },
+    "families": [
+      "programming"
+    ],
+    "features": [
+      "F30",
+      "F31",
+      "F32",
+      "F33",
+      "F34",
+      "F35",
+      "code_detected",
+      "input_size_detected"
+    ],
+    "macro_f1_delta_vs_A0": 0.2742590119428213
+  },
+  {
+    "run_id": "S_semantic_embedding",
+    "status": "unavailable",
+    "reason": "semantic_embedding_not_available"
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "availability": {
+    "joblib": true,
+    "numpy": true,
+    "pandas": true,
+    "pyarrow": true,
+    "semantic_model_local": false,
+    "sentence_transformers": true,
+    "sklearn": true,
+    "spacy": true,
+    "spacy_model_local": true,
+    "textstat": true,
+    "xgboost": true,
+    "yaml": true
+  },
+  "dependency_profile": "P1"
+}

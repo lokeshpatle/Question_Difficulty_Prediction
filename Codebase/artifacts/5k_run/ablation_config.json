@@ -1,0 +1,11 @@
+{
+  "selected_xgb_hyperparameters": {
+    "best_iteration": 39,
+    "early_stopping_rounds": 50,
+    "learning_rate": 0.1,
+    "max_depth": 6,
+    "n_estimators": 40,
+    "subsample": 1.0
+  },
+  "test_ids_are_forbidden": true
+}
